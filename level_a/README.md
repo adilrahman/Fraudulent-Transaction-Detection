@@ -1,16 +1,14 @@
+
 ## FILES
-- complaints-2021-09-08_07_12.csv - `dataset`
+- Level_A_Training.ipynb - `notebook contains EDA, feature engineering and model selection`
 
-- product_prediction_based_on_consumer_complaints.ipynb  - `notebook contains text preprocessing, text encoding and models evaluation and model selection`
+- Level_A_Evaluation.ipynb  - `notebook contains model predictions on evaluation dataset`
 
-- model.pkl - `trained model` [ LinearSVC ]
+- model.pkl - `trained model`
 
-- countVectorizer.pkl - `count vectorizer for converting the text into bag of words format`
+- standardScaler.pkl - `standard scaler for transforming the dataset`
 
-- tfidf_transformer.pkl - `tf-idf transformer for transforming the complaints into td-idf form`
-
-- y_label_encoder.pkl - `product classes numerical encoder`
+- models_results.csv - `perfomance of different machine learning models `
 
 - prediction.py - `for testing custom inputs`
-
 
