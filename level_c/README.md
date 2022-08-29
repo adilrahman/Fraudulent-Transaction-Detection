@@ -14,3 +14,14 @@ API FOR COMPLAINT CLASSIFICATION
 curl -X 'POST' 'https://complaint-classifcation.herokuapp.com/predict' -H 'accept: application/json' -H 'Content-Type: application/json' -d '{"complaint": "your complaint" }' 
 ```
 
+RESPONSE FORMAT
+```json
+{
+  "product" : "Credit reporting",
+  "sub_product" : "Credit reporting",
+  "issue" : "Improper use of your report",
+  "sub_issue":"Credit inquiries on your report that you don't recognize"
+}
+
+```
+
