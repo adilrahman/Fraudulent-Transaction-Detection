@@ -1,1 +1,0 @@
-# algomox-assignment
