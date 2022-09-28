@@ -1,5 +1,5 @@
 
-<h1 align="center">Transaction suspicious prediction
+<h1 align="center">Fraudulent Transaction Detection
 
 </h1>
 
@@ -10,6 +10,8 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" /> <!-- line breaker --></div></p>
 <!--- header ---->
   
+## ABOUT 
+- In this project studied about the fraudulent transactions or financial Suspicious Activities across the financial institutes And created a `machine learning model` for detecting the financial Suspicious Activities or fraudulent transactions.
 
 ## FILES
 - eda_and_model_training.ipynb - `notebook contains EDA, feature engineering and model selection`
@@ -24,11 +26,8 @@
 
 - prediction.py - `for testing custom inputs`
 
-## LOCAL TEST
+## HOW TO USE
 ```bash
-
-pip install -r requirements.txt
-
 python prediction.py
 ```
   
