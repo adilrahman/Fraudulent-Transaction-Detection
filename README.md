@@ -1,5 +1,5 @@
 
-<h1 align="center">Complaint Classification App
+<h1 align="center">Transaction suspicious prediction
 
 </h1>
 
@@ -24,7 +24,13 @@
 
 - prediction.py - `for testing custom inputs`
 
+## LOCAL TEST
+```bash
 
+pip install -r requirements.txt
+
+python prediction.py
+```
   
  <!--- footer --->
  <div align="center">
